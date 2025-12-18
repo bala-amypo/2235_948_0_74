@@ -19,8 +19,20 @@ public class studentEntity{
     public Long getId(){
         return id;
     }
-    public void getName(){
+    public String getName(){
         return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+    public String getEmail(String email){
+        this.email=email;
+    }
+    public studentEntity(){
 
+    }
+    public studentEntity(Long id,String name,String email){
+        this.id=id;
+        
     }
 }
