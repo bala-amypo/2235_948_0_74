@@ -20,5 +20,7 @@ public class studentController{
     public studentEntity addStudents(@Valid @RequestBody studentEntity student){
         return service.addStudents(student);
     }
+
+    @GetMapping("/get/{}")
 }
 
